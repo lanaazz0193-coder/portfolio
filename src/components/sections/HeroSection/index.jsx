@@ -13,7 +13,7 @@ const HeroSection = () => {
             </div>
 
             {/* Título Principal */}
-            <h1 className="display-4 fw-bold lh-sm mb-4">Lorem</h1>
+            <h1 className="display-4 fw-bold lh-sm mb-4">Ana - Souza</h1>
 
             {/* Parágrafo de Destaque */}
             <p className="lead text-white-50 mb-5 fs-4 px-md-3">Lorem</p>

@@ -21,9 +21,10 @@ const AboutSection = () => {
           {/* Texto */}
           <div className="col-lg-7 ps-lg-5">
             <span className="text-secondary fw-bold text-uppercase small mb-2 d-block">Lorem</span>
-            <h2 className="display-6 fw-bold mb-4">Lorem</h2>
-            <p className="text-secondary fs-5 lh-lg mb-4">Lorem</p>
-            <p className="text-secondary fs-5 lh-lg mb-5">Lorem</p>
+            <h2 className="display-6 fw-bold mb-4 text-uppercase">Olá!</h2>
+            <p className="text-secondary fs-5 lh-lg mb-4">Sou uma desenvolvedora de sistemas em formação, concluindo meus estudos na Escola Estadual
+                        Professora Sebastiana de Almeida e Silva. Participando do curso Desenvolvimento e Análise de
+                        Sistemas, no Ensino Médio Técnico Integral.</p>
             {/* Botão para baixar currículo */}
             <a href="#" className="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold rounded-pill">Lorem</a>
           </div>
@@ -31,7 +32,7 @@ const AboutSection = () => {
 
         {/* Tecnologias */}
         <div className="mt-5">
-          <h3 className="fw-bold text-center mb-5">Lorem</h3>
+          <h3 className="fw-bold text-center mb-5">Minhas Habilidades</h3>
           
           <div className="row g-4">
 
