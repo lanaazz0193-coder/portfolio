@@ -1,36 +1,51 @@
 const HeroSection = () => {
   return (
     <section className="position-relative bg-dark text-white text-center py-5 overflow-hidden">
-      <div className="container py-5">
+      
+      <img 
+        src="/src/assets/imgs/banner-hero.png"
+        alt="Imagem de fundo" 
+        className="position-absolute top-0 start-0 w-100 h-100"
+        style={{ objectFit: 'cover', opacity: 0.4 }} 
+      />
+
+      <div className="container py-5 position-relative z-1">
         <div className="row justify-content-center py-3">
           <div className="col-lg-10 col-xl-8">
             
-            {/* Divzinha do cabeçalho */}
+            {/* <div className="mb-4">
+              <img 
+                src="/src/assets/imgs/banner-hero.png" 
+                alt="Foto de Ana Souza" 
+                className="rounded-circle border border-3 border-secondary shadow-lg"
+                style={{ width: '150px', height: '150px', objectFit: 'cover' }}
+              />
+            </div> */}
+
+            {/* Badge ADS | Dev */}
             <div className="d-inline-flex align-items-center gap-2 bg-white bg-opacity-10 border border-white border-opacity-25 rounded-pill px-3 py-1 mb-4">
-              <span className="badge bg-secondary rounded-pill fw-semibold">Lorem</span>
-              <span className="small text-white-50">Lorem</span>
+              <span className="badge bg-secondary rounded-pill fw-semibold">ADS</span>
+              <span className="small text-white-50">Dev</span>
               <i className="bi bi-chevron-right small text-white-50"></i>
             </div>
 
             {/* Título Principal */}
-            <h1 className="display-4 fw-bold lh-sm mb-4">Ana - Souza</h1>
+            <h1 className="display-4 fw-bold lh-sm mb-4 f-ballet">Ana - Souza</h1>
 
-            {/* Parágrafo de Destaque */}
-            <p className="lead text-white-50 mb-5 fs-4 px-md-3">Lorem</p>
+            {/* Subtítulo */}
+            <p className="lead text-white-50 mb-5 fs-6 px-md-3">Desenvolvedora em constante evolução.</p>
 
-            {/* Botões de Chamada para Ação (CTA) */}
+            {/* Botão */}
             <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3 mb-5">
-              <a href="#" className="btn btn-secondary btn-lg px-4 py-3 fw-bold rounded-pill shadow-lg w-100 w-sm-auto">
-                Lorem
-              </a>
-              <a href="#" className="btn btn-outline-light btn-lg px-4 py-3 fw-bold rounded-pill w-100 w-sm-auto">
-                Lorem
+              <a href="#" className="btn btn-outline-light btn-lg px-4 py-3 fw-bold rounded-0 w-sm-auto w-25">
+                Trabalhe Comigo
               </a>
             </div>
 
-            {/* Rodapé da Hero Section */}
+            {/* Citação */}
             <div className="pt-4 border-top border-white border-opacity-10">
-              <p className="small text-white-50 mb-3 text-uppercase fw-semibold fs-7">Lorem</p>
+              <blockquote className="blockquote fs-6 fst-italic">"A vida é um pêndulo que oscila entre o sofrimento e o tédio."</blockquote>
+              <figcaption className="blockquote-footer mt-3 mb-0 text-white-50">Arthur Schopenhauer</figcaption>
             </div>
 
           </div>

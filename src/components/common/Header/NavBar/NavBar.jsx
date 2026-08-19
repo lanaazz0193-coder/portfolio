@@ -1,3 +1,5 @@
+import NavItem from "./NavItem";
+
 const NavBar = () => {
   return ( 
     <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm py-3 sticky-top">
@@ -13,17 +15,17 @@ const NavBar = () => {
           
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-1">
             <li className="nav-item">
-              <a className="nav-link px-3" aria-current="page" href="#">Ínicio</a>
+              <NavItem title="Ínicio" to="/"></NavItem>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#">Meus Trabalhos</a>
+              <NavItem title="Biblioteca" to="/SaaS"></NavItem>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#">Contato</a>
+              <NavItem title="Login" to="/Login"></NavItem>
             </li>
           </ul>
         
-          <a href="#" className="btn btn-secondary px-4 py-2 fw-bold rounded-pill shadow-sm">Entrar</a>
+          <a href="/Login" className="btn btn-secondary px-4 py-2 fw-bold rounded-pill shadow-sm">Entrar</a>
 
         </div>
         

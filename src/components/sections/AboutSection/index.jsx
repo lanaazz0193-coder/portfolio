@@ -5,12 +5,10 @@ const AboutSection = () => {
         
         <div className="row align-items-center mb-5 pb-4">
           
-          {/* Foto */}
           <div className="col-lg-5 mb-5 mb-lg-0">
             <div className="position-relative">
-              {/* Placeholder de Imagem - Substitua pelo link da sua foto */}
               <img 
-                src="https://placehold.co/500x600" 
+                src="/src/assets/imgs/foto-pessoal.png" 
                 alt="Minha Foto" 
                 className="img-fluid rounded-4 shadow-lg position-relative z-1" 
                 style={{ objectFit: 'cover' }} 
@@ -18,21 +16,16 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Texto */}
           <div className="col-lg-7 ps-lg-5">
-            <span className="text-secondary fw-bold text-uppercase small mb-2 d-block">Lorem</span>
+            <span className="text-secondary fw-bold text-uppercase small mb-2 d-block">Sobre mim</span>
             <h2 className="display-6 fw-bold mb-4 text-uppercase">Olá!</h2>
-            <p className="text-secondary fs-5 lh-lg mb-4">Sou uma desenvolvedora de sistemas em formação, concluindo meus estudos na Escola Estadual
-                        Professora Sebastiana de Almeida e Silva. Participando do curso Desenvolvimento e Análise de
-                        Sistemas, no Ensino Médio Técnico Integral.</p>
-            {/* Botão para baixar currículo */}
-            <a href="#" className="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold rounded-pill">Lorem</a>
+            <p className="text-secondary fs-5 lh-lg mb-4">Sou uma jovem desenvolvedora apaixonada por tecnologia e inovação, trilhando os passos finais da minha formação básica e técnica na Escola Estadual Professora Sebastiana de Almeida e Silva. Como estudante do Ensino Médio Técnico Integral, dedico minha rotina ao curso de Desenvolvimento e Análise de Sistemas. É nesse ambiente dinâmico que aprimoro diariamente minhas habilidades analíticas e de programação, sempre com o objetivo de criar aplicações que façam a diferença e iniciar uma carreira de impacto na área de TI.</p>
+            <a href="#" className="btn btn-outline-secondary btn-lg px-4 py-2 fw-semibold rounded-0">Contato</a>
           </div>
         </div>
 
-        {/* Tecnologias */}
         <div className="mt-5">
-          <h3 className="fw-bold text-center mb-5">Minhas Habilidades</h3>
+          <h3 className="fw-bold text-center mb-5">Tecnologias que domino</h3>
           
           <div className="row g-4">
 

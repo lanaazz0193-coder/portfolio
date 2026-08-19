@@ -1,13 +1,14 @@
+import { Outlet } from "react-router";
 import NavBar from '../../components/common/Header';
 import Footer from '../../components/common/Footer';
 
-const PortalLayout = ({ children }) => {
+const PortalPublico = () => {
   return (
     <>
       <NavBar/>
       
       <main>
-        {children}
+        <Outlet/>
       </main>
 
       <Footer/>
@@ -15,4 +16,4 @@ const PortalLayout = ({ children }) => {
   );
 };
 
-export default PortalLayout;
+export default PortalPublico;

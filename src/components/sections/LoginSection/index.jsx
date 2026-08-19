@@ -14,13 +14,13 @@ const Login = () => {
               <div className="bg-white text-primary rounded p-2 d-flex justify-content-center align-items-center">
                 <i className="bi bi-lightning-charge-fill"></i>
               </div>
-              <span className="fw-bold fs-4">Lorem</span>
+              <span className="fw-bold fs-4"></span>
             </a>
 
             {/* Mensagem de Impacto */}
             <div className="z-1 position-relative mt-5">
-              <h2 className="fw-bold mb-4 display-6">Lorem</h2>
-              <p className="text-white-80 lh-lg opacity-75 fs-5">Lorem</p>
+              <h2 className="fw-bold mb-4 display-6">Olá</h2>
+              <p className="text-white-80 lh-lg opacity-75 f-pp">Sua próxima descoberta começa aqui. Entre na sua conta.</p>
             </div>
             
           </div>

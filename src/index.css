@@ -1,0 +1,127 @@
+/* CORES DE FUNDO */
+.c-fundo-escura {
+    background-color: #201107;
+}
+
+.c-fundo {
+    background-color: #321908;
+}
+
+.c-fundo-clara {
+    background-color: #442511;
+}
+
+/* COR, ESPAÇAMENTO E TAMANHOS DE TEXTO */
+.f-pessego {
+    color: #eb9d66;
+}
+
+.f-pessego-claro {
+    color: #fab788;
+}
+
+.f-branco {
+    color: antiquewhite;
+}
+
+.f-espacado {
+    letter-spacing: 5px;
+}
+
+.f-pp { font-size: 13px; }
+.f-p { font-size: 18px; }
+.f-m { font-size: 24px; }
+.f-g { font-size: clamp(2rem, 5vw, 3rem); } /* Responsivo */
+.f-gg { font-size: clamp(3rem, 8vw, 5.5rem); } /* Responsivo */
+.f-ggg { font-size: clamp(4rem, 10vw, 7.5rem); } /* Responsivo */
+
+/* ALTURA DAS SEÇÕES */
+.tela-cheia {
+    min-height: 100vh; /* Substituído 950px fixos para se adaptar à tela */
+}
+
+/* HOVER BOTÕES */
+.btn-slide {
+    background: linear-gradient(to right, #eb9d66 50%, #201107 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border: none;
+    transition: all 0.4s ease-out;
+}
+
+.btn-slide:hover {
+    background-position: left bottom;
+}
+
+/* Efeito Hover nas Imagens do Portfólio */
+.img-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px #180b01;
+}
+
+/* Base do Card */
+.portfolio-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    height: 400px; /* Altura fixa para alinhar todos os cards perfeitamente */
+    background-color: #442511;
+}
+
+/* Força a imagem a cobrir todo o espaço interno do card */
+.portfolio-card .card-img-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+/* Painel de informações (Overlay) */
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 17, 7, 0.9); /* Fundo escuro com opacidade */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+    /* Escondido por padrão */
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* --- COMPORTAMENTO DO HOVER --- */
+
+/* Quando passa o mouse no card, mostra o painel de texto */
+.portfolio-card:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+/* Quando passa o mouse no card, dá um leve zoom na imagem de fundo */
+.portfolio-card:hover .card-img-bg {
+    transform: scale(1.1);
+}
+
+/* Estilo do botão interno */
+.btn-card-view {
+    border: 1px solid #eb9d66;
+    color: #fab788;
+    background: transparent;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-card-view:hover {
+    background-color: #eb9d66;
+    color: #201107 !important;
+}

@@ -1,39 +1,38 @@
+import { Link } from "react-router";
+
 const Footer = () => {
   return (
 
   <footer className="bg-dark text-white">
   
-  {/* Call to Action / Newsletter */}
   <div className="container py-5 border-bottom border-secondary">
     <div className="row align-items-center py-4">
       <div>
-        <h2 className="fw-bold display-6">Lorem</h2>
-        <p className="mb-0 text-white-50 fs-5">Lorem</p>
+        <h2 className="fw-bold display-6"></h2>
+        <p className="mb-0 text-white-50 fs-5"></p>
       </div>
     </div>
   </div>
 
-  {/* Seção 2: Navegação Principal e Conteúdo */}
   <div className="container py-5">
     <div className="row gy-5 py-4">
       
-      {/* Coluna da Marca */}
       <div className="col-lg-8">
         <a href="#" className="text-white text-decoration-none d-flex align-items-center mb-4">
-          <span className="fs-2 fw-bold">Lorem</span>
+          <span className="fs-2 fw-bold">Ana Lívia de Souza</span>
         </a>
-        <p className="text-white-50 mb-4 lh-lg">Lorem</p>
+        <p className="text-white-50 mb-4 lh-lg">Desenvolvedora de Sistemas e futura pesquisadora ambiental.</p>
       </div>
 
       
 
       <div className="col-lg-2 col-md-4 col-6">
-        <h5 className="fw-bold mb-4 text-uppercase tracking-wide">Empresa</h5>
+        <h5 className="fw-bold mb-4 text-uppercase tracking-wide">Navegação</h5>
         <ul className="list-unstyled d-flex flex-column gap-3 mb-0">
-          <li><a href="#" className="text-white-50 text-decoration-none custom-hover">Lorem</a></li>
-          <li><a href="#" className="text-white-50 text-decoration-none custom-hover">Lorem</a></li>
-          <li><a href="#" className="text-white-50 text-decoration-none custom-hover">Lorem</a></li>
-          <li><a href="#" className="text-white-50 text-decoration-none custom-hover">Lorem</a></li>
+          <li><Link to="/" className="text-white-50 text-decoration-none custom-hover">Ínicio</Link></li>
+          <li><Link to="/" className="text-white-50 text-decoration-none custom-hover">Portfolio</Link></li>
+          <li><Link to="/" className="text-white-50 text-decoration-none custom-hover">Contato</Link></li>
+          <li><Link to="/Login" className="text-white-50 text-decoration-none custom-hover">Login</Link></li>
         </ul>
       </div>
 
@@ -55,7 +54,6 @@ const Footer = () => {
     </div>
   </div>
 
-  {/* Seção 3: Direitos Autorais e Políticas */}
   <div className="py-4">
     <div className="text-center">
       <p className="mb-0 text-white-50 small">&copy; 2026 Portfolio da Ana. Todos os direitos reservados.</p>
