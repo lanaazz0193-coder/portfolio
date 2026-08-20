@@ -15,7 +15,7 @@ const SaaSSection = () => {
           
           <div className="col-lg-6">
             <div className="shadow-lg overflow-hidden mb-4" style={{ borderRadius: '2rem 8rem 2rem 2rem' }}>
-              <img src="https://placehold.co/500x350" className="img-fluid w-100" alt="Interface da Biblioteca" />
+              <img src="src\assets\imgs\litera-1.jpg" className="img-fluid w-100" alt="Interface da Biblioteca" />
             </div>
             
             <div className="card border-0 shadow-sm p-4 bg-white mx-4 position-relative" style={{ borderRadius: '2rem', marginTop: '-80px' }}>
@@ -36,7 +36,7 @@ const SaaSSection = () => {
             </div>
 
             <div className="shadow-lg overflow-hidden" style={{ borderRadius: '8rem 2rem 2rem 2rem' }}>
-              <img src="https://placehold.co/500x350" className="img-fluid w-100" alt="Detalhes do Sistema" style={{ objectFit: 'cover', height: '400px' }} />
+              <img src="src\assets\imgs\litera-2.jpg" className="img-fluid w-100" alt="Detalhes do Sistema" style={{ objectFit: 'cover', height: '400px' }} />
             </div>
           </div>
 

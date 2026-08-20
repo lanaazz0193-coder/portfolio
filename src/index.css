@@ -1,32 +1,8 @@
 /* CORES DE FUNDO */
-.c-fundo-escura {
-    background-color: #201107;
-}
-
-.c-fundo {
-    background-color: #321908;
-}
-
-.c-fundo-clara {
-    background-color: #442511;
-}
 
 /* COR, ESPAÇAMENTO E TAMANHOS DE TEXTO */
-.f-pessego {
-    color: #eb9d66;
-}
 
-.f-pessego-claro {
-    color: #fab788;
-}
-
-.f-branco {
-    color: antiquewhite;
-}
-
-.f-espacado {
-    letter-spacing: 5px;
-}
+.f-espacado { letter-spacing: 5px; }
 
 .f-pp { font-size: 13px; }
 .f-p { font-size: 18px; }
@@ -42,7 +18,7 @@
 
 /* HOVER BOTÕES */
 .btn-slide {
-    background: linear-gradient(to right, #eb9d66 50%, #201107 50%);
+    background: linear-gradient(to right, #dbab87 50%, #633e248c 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     border: none;
