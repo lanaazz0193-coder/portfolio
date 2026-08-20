@@ -46,7 +46,7 @@ const SaaSSection = () => {
           <i className="bi bi-three-dots text-secondary fs-1 opacity-50"></i>
         </div>
 
-        <div className="row g-4 mt-4">
+        <div className="row g-4 mt-4 mb-5">
 
           <div className="col-12 mb-4">
             <h3 className="fw-bold display-6 text-dark">O que tem por dentro?</h3>
@@ -89,6 +89,32 @@ const SaaSSection = () => {
           </div>
           
         </div>
+
+
+        <div className="row mt-5 pt-5">
+          <div className="col-12">
+            
+            <div className="card border-0 shadow-lg text-center position-relative overflow-hidden">
+              
+              <div className="position-absolute top-50 start-50 translate-middle"></div>
+              
+              <div className="card-body position-relative z-1 p-5 py-md-5 my-md-4">
+                <span className="text-uppercase tracking-wider small fw-bold mb-3 d-block ">Experiência ao vivo</span>
+                
+                <h2 className="display-5 fw-bold mb-4">Pronto para explorar as estantes?</h2>
+                
+                <p className="lead  mb-5 mx-auto" style={{ maxWidth: '700px' }}>
+                  Acesse a plataforma agora mesmo. Navegue pelo acervo, leia as resenhas completas e veja como o design e o código se unem neste projeto finalizado.
+                </p>
+                
+                <a href="#" target="_blank" rel="" className="btn btn-outline-secondary btn-lg px-5 py-3 fw-bold rounded-0 shadow-sm">Visitar Projeto</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
       </div>
     </section>
   );

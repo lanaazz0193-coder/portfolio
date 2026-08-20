@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return(
-    <section id="contato" className="py-5 bg-light position-relative overflow-hidden">
+    <section id="contato" className="py-5 position-relative overflow-hidden c-black">
       <div className="container py-5 position-relative z-1">
         
         <div className="text-center mb-5">

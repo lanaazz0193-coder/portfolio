@@ -1,6 +1,6 @@
 const ProjectSection = () => {
   return(
-    <section id="projetos" className="py-5">
+    <section id="projetos" className="py-5 c-project">
       <div className="container py-5">
         
         <div className="text-center mb-5 pb-3">
