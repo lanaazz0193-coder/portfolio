@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import PortalPublico from "./layouts/PortalPublico";
 import Home from './routes/Portal/Home';
 import Login from './routes/Portal/Login';
-import SaaS from './routes/Portal/SaaS';
+import Litera from "./routes/Portal/Litera";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         {/* Portal público */}
         <Route path="/" element={<PortalPublico/>}>
           <Route index element={<Home />} />
-          <Route path="saas" element={<SaaS />} />
+          <Route path="litera" element={<Litera />} />
           <Route path="login" element={<Login />} />
         </Route>
         

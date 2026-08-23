@@ -1,4 +1,4 @@
-const SaaSSection = () => {
+const LiteraSection = () => {
   return (
     <section id="projeto-biblioteca" className="py-5 position-relative overflow-hidden">
       <div className="container py-5 position-relative z-1">
@@ -145,4 +145,4 @@ const SaaSSection = () => {
   );
 };
 
-export default SaaSSection;
+export default LiteraSection;

@@ -18,7 +18,7 @@ const NavBar = () => {
               <NavItem title="Ínicio" to="/"></NavItem>
             </li>
             <li className="nav-item">
-              <NavItem title="Biblioteca" to="/SaaS"></NavItem>
+              <NavItem title="Litera" to="/Litera"></NavItem>
             </li>
             <li className="nav-item">
               <NavItem title="Login" to="/Login"></NavItem>
