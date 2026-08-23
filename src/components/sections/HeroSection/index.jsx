@@ -1,18 +1,19 @@
 const HeroSection = () => {
   return (
     <section className="position-relative bg-dark text-white text-center py-5 overflow-hidden">
-      
+
+      {/* Imagem banner */}     
       <img 
-        src="/src/assets/imgs/banner-hero.png"
+        // src="/src/assets/imgs/banner-hero.png"
         alt="Imagem de fundo" 
         className="position-absolute top-0 start-0 w-100 h-100"
         style={{ objectFit: 'cover', opacity: 0.4 }} 
       />
 
+      {/* Imagem perfil */}
       <div className="container py-5 position-relative z-1">
         <div className="row justify-content-center py-3">
-          <div className="col-lg-10 col-xl-8">
-            
+          <div className="col-lg-10 col-xl-8">           
             {/* <div className="mb-4">
               <img 
                 src="/src/assets/imgs/banner-hero.png" 
@@ -22,17 +23,15 @@ const HeroSection = () => {
               />
             </div> */}
 
-            {/* Badge ADS | Dev */}
+            {/* ADS | Dev */}
             <div className="d-inline-flex align-items-center gap-2 bg-white bg-opacity-10 border border-white border-opacity-25 rounded-pill px-3 py-1 mb-4">
               <span className="badge bg-secondary rounded-pill fw-semibold">ADS</span>
               <span className="small text-white-50">Dev</span>
               <i className="bi bi-chevron-right small text-white-50"></i>
             </div>
 
-            {/* Título Principal */}
+            {/* Título e subtítulo */}
             <h1 className="display-4 fw-bold lh-sm mb-4 f-ballet">Ana - Souza</h1>
-
-            {/* Subtítulo */}
             <p className="lead text-white-50 mb-5 fs-6 px-md-3">Desenvolvedora em constante evolução.</p>
 
             {/* Botão */}

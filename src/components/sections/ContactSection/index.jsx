@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return(
-    <section id="contato" className="py-5 position-relative overflow-hidden c-black">
+    <section id="contato" className="py-5 position-relative overflow-hidden">
       <div className="container py-5 position-relative z-1">
         
         <div className="text-center mb-5">
@@ -11,7 +11,7 @@ const ContactSection = () => {
         <div className="card border-0 shadow-lg rounded-4 overflow-hidden">
           <div className="row g-0">
             
-            {/* <!-- Lado Esquerdo --> */}
+            {/* Lado Esquerdo */}
             <div className="col-lg-5 text-white p-4 p-md-5 d-flex flex-column justify-content-between bg-dark">
               
               <div className="mb-5">
@@ -21,7 +21,7 @@ const ContactSection = () => {
 
               <div className="d-flex flex-column gap-4 mb-5">
             
-                {/* <!-- WhatsApp --> */}
+                {/* WhatsApp */}
                 <a href="#" className="text-decoration-none text-white d-flex align-items-center gap-3 group-hover">
                   <div>
                     <img src="https://placehold.co/35x35" alt="" className="p-2 rounded-circle d-inline-flex transition-all"/>
@@ -32,7 +32,7 @@ const ContactSection = () => {
                   </div>
                 </a>
 
-                {/* <!-- E-mail --> */}
+                {/* E-mail */}
                 <a href="mailto:lanaazz0193@gmail.com" className="text-decoration-none text-white d-flex align-items-center gap-3">
                   <div>
                     <img src="https://placehold.co/35x35" alt="" className="p-2 rounded-circle d-inline-flex transition-all"/>
@@ -43,7 +43,7 @@ const ContactSection = () => {
                   </div>
                 </a>
 
-                {/* <!-- Localização --> */}
+                {/* Localização */}
                 <div className="d-flex align-items-center gap-3">
                   <div>
                     <img src="https://placehold.co/35x35" alt="" className="p-2 rounded-circle d-inline-flex transition-all"/>
@@ -63,7 +63,8 @@ const ContactSection = () => {
               
               <form>
                 <div className="row g-3">
-                  
+
+                  {/* Nome */}                 
                   <div className="col-md-6">
                     <div className="form-floating mb-3">
                       <input type="text" className="form-control bg-light border-0" id="inputNome" placeholder="Seu Nome"/>
@@ -71,6 +72,7 @@ const ContactSection = () => {
                     </div>
                   </div>
 
+                  {/* E-mail */}
                   <div className="col-md-6">
                     <div className="form-floating mb-3">
                       <input type="email" className="form-control bg-light border-0" id="inputEmail" placeholder="nome@exemplo.com"/>
@@ -78,6 +80,7 @@ const ContactSection = () => {
                     </div>
                   </div>
 
+                  {/* Assunto */}
                   <div className="col-12">
                     <div className="form-floating mb-3">
                       <input type="text" className="form-control bg-light border-0" id="inputAssunto" placeholder="Assunto"/>
@@ -85,6 +88,7 @@ const ContactSection = () => {
                     </div>
                   </div>
 
+                  {/* Mensagem */}
                   <div className="col-12">
                     <div className="form-floating mb-4">
                       <textarea className="form-control bg-light border-0" placeholder="Deixe sua mensagem" id="inputMensagem" style={{ height: '150px' }}></textarea>
@@ -92,6 +96,7 @@ const ContactSection = () => {
                     </div>
                   </div>
 
+                  {/* Botão de envio */}
                   <div className="col-12 d-flex justify-content-center">
                     <button type="submit" className="btn btn-outline-secondary btn-lg w-50 rounded-0 fw-bold shadow-sm py-3 d-flex justify-content-center align-items-center gap-2">
                       <i className="bi bi-send-fill"></i> Enviar Mensagem

@@ -1,3 +1,4 @@
+/* Paltea de cores */
 :root {
 
   --black: #140B0E;
@@ -11,7 +12,7 @@
 
 }
 
-/*  */
+/* Cores de fundo */
 .c-black { background-color: var(--black); }
 .c-darkgray { background-color: var(--darkgray); }
 .c-gray { background-color: var(--gray); }
@@ -21,11 +22,11 @@
 .c-darkred { background-color: var(--darkred); }
 .c-darker { background-color: var(--darker); }
 
-.c-about { background: linear-gradient(var(--black), var(--darker)); }
-.c-project { background: linear-gradient(var(--darker), var(--black)); }
-.c-btn { background: linear-gradient(var(--darkred), var(--black)); }
+.c-gradient1 { background: linear-gradient(var(), var()); }
+.c-gradient2 { background: linear-gradient(var(), var()); }
+.c-gradient3 { background: linear-gradient(var(), var()); }
 
-/*  */
+/* Cores de fonte */
 .f-black { color: var(--black); }
 .f-darkgray { color: var(--darkgray); }
 .f-gray { color: var(--gray); }
@@ -33,8 +34,11 @@
 .f-white { color: var(--white); }
 .f-red { color: var(--red); }
 .f-darkred { color: var(--darkred); }
+.f-darker { color: var(--darker); }
 
-/*  */
+/* Fontes */
+
+/* Estilização de fontes */
 .f-espacado { letter-spacing: 5px; }
 
 .f-pp { font-size: 14px; }
@@ -44,17 +48,18 @@
 .f-gg { font-size: clamp(3rem, 8vw, 5.5rem); }
 .f-ggg { font-size: clamp(4rem, 10vw, 7.5rem); }
 
-/*  */
+/* Cards */
 .card-heigt { height: 240px; }
 
+.border-red { border-color: var(--darkred); }
+
+/* Botões */
+
 .btn-slide {
-  background: linear-gradient(to right, #dbab87 50%, #633e248c 50%);
+  background: linear-gradient(to right, var() 50%, var() 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   border: none;
   transition: all 0.4s ease-out;
 }
 
-
-/*  */
-.border-red { border-color: var(--darkred); }
