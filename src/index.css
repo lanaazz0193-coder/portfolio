@@ -55,11 +55,3 @@
 
 /* Botões */
 
-.btn-slide {
-  background: linear-gradient(to right, var() 50%, var() 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  border: none;
-  transition: all 0.4s ease-out;
-}
-
