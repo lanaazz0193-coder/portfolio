@@ -29,7 +29,7 @@ const ProjectSection = () => {
               </div>
 
               {/* Título e parágrafo */}              
-              <h3 className="fw-bold mb-3">Biblioteca</h3>
+              <h3 className="fw-bold mb-3">Litera</h3>
               <p className="text-secondary mb-4 lh-lg">Sistema web para gerenciamento de livros. Criado no curso técnico, o projeto foca em organização, usabilidade e código limpo. Confira o resultado!</p>
               
               {/* Botão */}
